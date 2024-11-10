@@ -14,19 +14,19 @@ coroutine.resume(coroutine.create(function()
 				if v.Name ~= plr.Name and v.Character then
 					v.Character.RightUpperLeg.CanCollide = false
 					v.Character.RightUpperLeg.Transparency = 10
-					v.Character.RightUpperLeg.Size = Vector3.new(50,50,50)
+					v.Character.RightUpperLeg.Size = Vector3.new(20,20,20)
  
 					v.Character.LeftUpperLeg.CanCollide = false
 					v.Character.LeftUpperLeg.Transparency = 10
-					v.Character.LeftUpperLeg.Size = Vector3.new(50,50,50)
+					v.Character.LeftUpperLeg.Size = Vector3.new(20,20,20)
  
 					v.Character.HeadHB.CanCollide = false
 					v.Character.HeadHB.Transparency = 10
-					v.Character.HeadHB.Size = Vector3.new(50,50,50)
+					v.Character.HeadHB.Size = Vector3.new(20,20,20)
  
 					v.Character.HumanoidRootPart.CanCollide = false
 					v.Character.HumanoidRootPart.Transparency = 0.5
-					v.Character.HumanoidRootPart.Size = Vector3.new(50,50,50)
+					v.Character.HumanoidRootPart.Size = Vector3.new(20,20,20)
  
 				end
 			end
